@@ -1,5 +1,5 @@
 body {
-    background: #efeee7;
+    background: white;
     font-family: 'Georgia,"Times New Roman",Times,serif';
     color: #333333;
     margin: 0;
@@ -22,12 +22,8 @@ h2 {
     font-size:24px;
 }
 
-div {
-    background-color: green;
-
-}
 .container{
-   
+   overflow: auto;
     margin: 0 auto;
     width: 1024px;
     background-color: #efeee7;
@@ -36,14 +32,14 @@ div {
 #main-bio {
     float:left;
     width:70%;
-    
+    margin: 15px;
 }
 
 #contact-info {
-    background: blue;
     float:left;
     width:30%;
     line-height:24px;  
+    margin: 10px;
 }
 
 a:link {
@@ -54,5 +50,4 @@ a:link {
 #bio-image {
     float:left;
     width:200px;
-    margin: 10px;
 }
